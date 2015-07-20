@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #333333;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+#all{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px){
+    #all{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.entry{
+    border: solid 1px orange;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.date{
+    font-size: 14px;
+    color: #003366;
+    margin-left: 1%;
+}
+
+.delete a{
+    float: right;
+    color: #F90000;
+    margin-right: 5px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+textarea{
+    margin: 1%;
+    background-color: #F3F3F3;
+    width: 98%;
+    border: 0;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+    color: #003366;
+    font-weight: 100;
+}
+
+#savingMsg{
+    font-size: 10px;
+    color: #F3F3F3;
+    display: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#newNoteBtn{
+    border: solid 2px green;
+    margin-top: 10px;
+    margin-right: 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: green;
+    float: right;
+    font-size: 20px;
+}
+#newNoteBtn:hover{
+    color: blue;
+    border: solid 3px blue;
+}

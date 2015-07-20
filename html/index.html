@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Nodepad</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <meta name="robots" content="noindex,nofollow" />
+        <link rel="stylesheet" href="css/index.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="js-client/lib/date.format.js"></script>
+        <script src="js-client/index.main.js"></script>
+    </head>
+    <body>
+        <div id="all">
+            <h1>Nodepad <a href="#" id="newNoteBtn">+</a></h1>
+            {{#results}}
+            <div class="entry"><span class="date">{{date}}</span> <span class="delete"><a href="#">x</a></span><textarea data-id="{{entryID}}">{{value}}</textarea></div>
+            {{/results}}
+        </div>
+        <div id="savingMsg">Saving...</div>
+    </body>
+</html>

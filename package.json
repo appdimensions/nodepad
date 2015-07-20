@@ -1,0 +1,13 @@
+{
+  "name": "nodepad",
+  "version": "1.0",
+  "description": "A simple notepad that automatically saves every change, written from scratch with Node.js and MySQL",
+  "main": "server.js",
+  "repository": "",
+  "author": "Lukas Rossi <hello@appdimensions.com>",
+  "dependencies": {
+    "mysql": "^2.3.2",
+    "mu2": "^0.5.19",
+    "mime": "^1.2.9"
+  }
+}
