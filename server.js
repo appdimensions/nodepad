@@ -66,4 +66,4 @@ http.createServer(function(req, res) {
         res.writeHead(403, {"Content-Type": "text/plain"});
         res.end("403 Access denied.");
     }
-}).listen(process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1", process.env.OPENSHIFT_NODEJS_PORT || 8080);
+}).listen(process.env.PORT || 8080, process.env.IP || "127.0.0.1");
